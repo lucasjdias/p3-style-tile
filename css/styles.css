@@ -2,6 +2,28 @@
 h2, h3, p {
 	margin: 0;
 }
+/* Primary Header */
+
+h1 {
+	font-family: 'Slackey', cursive;
+	color: orangered;
+}
+
+/* Body Text */
+
+p {
+	font-family: 'Freckle Face', cursive;
+	color: pink;
+	line-height: 1.5em;
+}
+
+/* Links */
+
+a.link,
+a.visited {
+	text-decoration: none;
+	text-transform: uppercase;
+}
 
 /* Layout for Style Tile*/
 section {
@@ -21,6 +43,28 @@ section {
 	width: 50px;
 }
 
+/* Colors Palette */
+
+.color-1 {
+	background: teal;
+}
+
+.color-2 {
+	background: cornflowerblue;
+}
+
+
+/* Patterns */
+
+.pattern-1 {
+	background-color: #008c41;
+	background-image: url(http://www.transparenttextures.com/patterns/back-pattern.png);
+}
+
+.pattern-2 {
+	background-color: #8f0500;
+	background-image: url(http://www.transparenttextures.com/patterns/black-thread.png);
+}
 
 /* Show Grid */
 .showgrid {
