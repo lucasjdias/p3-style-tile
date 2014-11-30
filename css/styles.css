@@ -1,28 +1,63 @@
+/* Body BG */
+
+body {
+	background: url(../img/pw_pattern.png);
+}
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
 }
+
+/* Image */
+img {
+	width: 400px;
+}
+
 /* Primary Header */
 
 h1 {
-	font-family: 'Slackey', cursive;
-	color: orangered;
+	font-family: 'Lilita One', cursive;
+	color: #FF6633;
 }
 
+h2 {
+	font-family: 'Signika', sans-serif;
+	font-weight: 700;
+	color: #666666;
+}
+
+h3 {
+	font-family: 'Signika', sans-serif;
+	font-weight: 400;
+	color: #FF6633;
+}
+
+em {
+	font-family: 'Economica', sans-serif;
+	font-weight: 400 italic;
+}
 /* Body Text */
 
 p {
-	font-family: 'Freckle Face', cursive;
-	color: pink;
+	font-family: 'Economica', sans-serif;
+	color: #666666;
 	line-height: 1.5em;
 }
 
 /* Links */
 
+
 a.link,
 a.visited {
 	text-decoration: none;
 	text-transform: uppercase;
+	color: #FF6633;
+}
+
+a.hover {
+	text-decoration: none;
+	color: #FF6633;
 }
 
 /* Layout for Style Tile*/
@@ -46,24 +81,31 @@ section {
 /* Colors Palette */
 
 .color-1 {
-	background: teal;
+	background: #FF6633;
 }
 
 .color-2 {
-	background: cornflowerblue;
+	background: #666666;
 }
 
+.color-3 {
+	background: #000;
+}
 
 /* Patterns */
 
 .pattern-1 {
 	background-color: #008c41;
-	background-image: url(http://www.transparenttextures.com/patterns/back-pattern.png);
+	background-image: url(http://colourlovers.com.s3.amazonaws.com/images/patterns/350/350740.png);
 }
 
 .pattern-2 {
 	background-color: #8f0500;
-	background-image: url(http://www.transparenttextures.com/patterns/black-thread.png);
+	background-image: url(../img/pixel_weave.png);
+}
+
+.pattern-3 {
+	background-image: url(../img/cream_pixels.png);
 }
 
 /* Show Grid */
